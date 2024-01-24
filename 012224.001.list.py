@@ -1,6 +1,6 @@
 '''
 1. List
-
+Se usan para guardar
 '''
 
 list_my_students = [
@@ -37,3 +37,8 @@ print (list_my_students)
 
 for item in list_my_students:
     print (item)
+
+print('____________')
+
+list_my_students.sort()
+print(list_my_students)
